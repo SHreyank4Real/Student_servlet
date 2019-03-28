@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>ServletPractice</display-name>
+  	<servlet>
+  	<servlet-name>AddStudent</servlet-name>
+  	<servlet-class>serv.AddStudent</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>AddStudent</servlet-name>
+  		<url-pattern>/add_student</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  	<servlet-name>AddFaculty</servlet-name>
+  	<servlet-class>serv.AddFaculty</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>AddFaculty</servlet-name>
+  		<url-pattern>/add_faculty</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  	<servlet-name>AddMentor</servlet-name>
+  	<servlet-class>serv.AddMentor</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>AddMentor</servlet-name>
+  		<url-pattern>/add_mentor</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  	<servlet-name>RemoveStudent</servlet-name>
+  	<servlet-class>serv.RemoveStudent</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>RemoveStudent</servlet-name>
+  		<url-pattern>/rem_student</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  	<servlet-name>RemoveFaculty</servlet-name>
+  	<servlet-class>serv.RemoveFaculty</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>RemoveFaculty</servlet-name>
+  		<url-pattern>/rem_faculty</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  	<servlet-name>RemoveMentor</servlet-name>
+  	<servlet-class>serv.RemoveMentor</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>RemoveMentor</servlet-name>
+  		<url-pattern>/rem_mentor</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  	<servlet-name>DisplayStudent</servlet-name>
+  	<servlet-class>serv.DisplayStudent</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>DisplayStudent</servlet-name>
+  		<url-pattern>/dis_student</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  	<servlet-name>DisplayFaculty</servlet-name>
+  	<servlet-class>serv.DisplayFaculty</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>DisplayFaculty</servlet-name>
+  		<url-pattern>/dis_faculty</url-pattern>
+  	</servlet-mapping>
+  	
+  	<servlet>
+  	<servlet-name>DisplayMentor</servlet-name>
+  	<servlet-class>serv.DisplayMentor</servlet-class>
+  	</servlet>
+  	
+  	<servlet-mapping>
+  		<servlet-name>DisplayMentor</servlet-name>
+  		<url-pattern>/dis_mentor</url-pattern>
+  	</servlet-mapping>
+  	
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
